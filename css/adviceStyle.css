@@ -1,0 +1,126 @@
+/* Methods */
+.method .header, .method .cell {
+  padding: 6px 6px 6px 10px; }
+.method .list-header .header {
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #999;
+  background-color: #dae4fa; }
+.method [class^="row"],
+.method [class*=" row"] {
+  border-bottom: 1px solid #ddd; }
+  .method [class^="row"]:hover,
+  .method [class*=" row"]:hover {
+
+ }
+  .method .cell .mobile-isrequired {
+    display: none;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #aaa; }
+  .method .cell .propertyname {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .method .cell .type {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .method .cell code {
+    color: #428bca; }
+  .method .cell a, .method .cell a:hover {
+    text-decoration: none; }
+  .method .cell code.custom {
+    color: #8a6d3b;
+    text-decoration: none; }
+  .method .cell .text-muted {
+    color: #ddd; }
+@media (max-width: 991px) {
+  .method [class^="row"],
+  .method [class*=" row"] {
+    padding-top: 10px;
+    padding-bottom: 10px; }
+  .method .cell {
+    padding: 0 10px; }
+    .method .cell .propertyname {
+      font-weight: bold;}
+      .method .cell .propertyname .lookuplink {
+        font-weight: normal;
+        position: absolute;
+        top: 0;
+        right: 10px; }
+    .method .cell .type {
+      padding-left: 10px;}
+    .method .cell .isrequired {
+      padding-left: 10px;
+      display: none; }
+    .method .cell .description {
+      padding-left: 10px; }
+    .method .cell .mobile-isrequired {
+      display: inline; } }
+
+
+/* Row Utilities */
+[class^='row'].margin-0,
+[class*=' row'].margin-0,
+[class^='form-group'].margin-0,
+[class*=' form-group'].margin-0 {
+  margin-left: -0px;
+  margin-right: -0px; }
+  [class^='row'].margin-0 > [class^='col-'],
+  [class^='row'].margin-0 > [class*=' col-'],
+  [class*=' row'].margin-0 > [class^='col-'],
+  [class*=' row'].margin-0 > [class*=' col-'],
+  [class^='form-group'].margin-0 > [class^='col-'],
+  [class^='form-group'].margin-0 > [class*=' col-'],
+  [class*=' form-group'].margin-0 > [class^='col-'],
+  [class*=' form-group'].margin-0 > [class*=' col-'] {
+    padding-right: 0px;
+    padding-left: 0px; }
+  [class^='row'].margin-0 [class^='row'],
+  [class^='row'].margin-0 [class*=' row'],
+  [class^='row'].margin-0 [class^='form-group'],
+  [class^='row'].margin-0 [class*=' form-group'],
+  [class*=' row'].margin-0 [class^='row'],
+  [class*=' row'].margin-0 [class*=' row'],
+  [class*=' row'].margin-0 [class^='form-group'],
+  [class*=' row'].margin-0 [class*=' form-group'],
+  [class^='form-group'].margin-0 [class^='row'],
+  [class^='form-group'].margin-0 [class*=' row'],
+  [class^='form-group'].margin-0 [class^='form-group'],
+  [class^='form-group'].margin-0 [class*=' form-group'],
+  [class*=' form-group'].margin-0 [class^='row'],
+  [class*=' form-group'].margin-0 [class*=' row'],
+  [class*=' form-group'].margin-0 [class^='form-group'],
+  [class*=' form-group'].margin-0 [class*=' form-group'] {
+    margin-left: 0;
+    margin-right: 0; }
+    
+
+.method {
+
+  font-size: 20px;
+  font-family: "Trebuchet MS";
+
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+  background: rgba(179,220,237,1);
+  background: -moz-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(255,255,255,1) 49%, rgba(188,224,238,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(179,220,237,1)), color-stop(49%, rgba(255,255,255,1)), color-stop(100%, rgba(188,224,238,1)));
+  background: -webkit-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(255,255,255,1) 49%, rgba(188,224,238,1) 100%);
+  background: -o-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(255,255,255,1) 49%, rgba(188,224,238,1) 100%);
+  background: -ms-linear-gradient(left, rgba(179,220,237,1) 0%, rgba(255,255,255,1) 49%, rgba(188,224,238,1) 100%);
+  background: linear-gradient(to right, rgba(179,220,237,1) 0%, rgba(255,255,255,1) 49%, rgba(188,224,238,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee', GradientType=1 );
+
+  border-radius: 113px 113px 113px 113px;
+  -moz-border-radius: 113px 113px 113px 113px;
+  -webkit-border-radius: 113px 113px 113px 113px;
+  border: 20px solid #dae4fa;
+}

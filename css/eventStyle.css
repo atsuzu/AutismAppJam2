@@ -1,0 +1,65 @@
+body {
+	background: -webkit-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: -moz-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: -ms-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: -o-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+}
+
+p {
+    text-indent: 10px;
+}
+
+#joinButtonId {
+	color: white;
+}
+
+#joinOptionsID {
+	display: none;
+}
+
+.test { 
+	height: 1px;
+}
+
+h1 .Thick{
+	display: inline-block;
+	font-weight: 500;
+	font-size: 100px;
+	color: lightSalmon;
+	font-family: "Tahoma";
+}
+
+h1 .Thin{
+
+	display: inline-block;
+	font-weight: 100;
+	font-size: 70px;
+	color: lightCoral;
+	font-family:"Rockwell";	
+
+}
+
+h3 .Thin{
+
+	display: inline-block;
+	font-weight: 100;
+	font-size: 35px;
+	color: lightCoral;
+	font-family:"Rockwell";	
+
+}
+
+#eventsHeader{
+	text-align: center;
+}
+
+#topLeftProfile
+{
+	margin-top: 2%;
+	margin-left: 2%;
+}
+
+#topRightAdvice{
+	margin-top: 2%;
+}

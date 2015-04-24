@@ -1,0 +1,89 @@
+
+.profileContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    clear: both;
+} 
+
+.profileContainer input {
+    width: 100%;
+    clear: both;
+}
+
+#submitButton{
+  position: relative;
+  vertical-align: center;
+  margin: auto;
+  margin-top: auto;
+  width: 100%;
+  height: 100%;
+  
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #62b1d0;
+  border: 0;
+  border-bottom: 3px solid #9FE8EF;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -3px #9FE8EF;
+  box-shadow: inset 0 -3px #9FE8EF;
+}
+
+#myModal {
+    background: -webkit-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: -moz-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: -ms-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: -o-linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+    background: linear-gradient(90deg, #FF512F 10%, #DD2476 90%);
+}
+
+.modal-dialog{
+
+
+background: rgba(224,199,201,1);
+background: -moz-linear-gradient(top, rgba(224,199,201,1) 0%, rgba(222,96,96,1) 77%, rgba(230,16,52,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,199,201,1)), color-stop(77%, rgba(222,96,96,1)), color-stop(100%, rgba(230,16,52,1)));
+background: -webkit-linear-gradient(top, rgba(224,199,201,1) 0%, rgba(222,96,96,1) 77%, rgba(230,16,52,1) 100%);
+background: -o-linear-gradient(top, rgba(224,199,201,1) 0%, rgba(222,96,96,1) 77%, rgba(230,16,52,1) 100%);
+background: -ms-linear-gradient(top, rgba(224,199,201,1) 0%, rgba(222,96,96,1) 77%, rgba(230,16,52,1) 100%);
+background: linear-gradient(to bottom, rgba(224,199,201,1) 0%, rgba(222,96,96,1) 77%, rgba(230,16,52,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0c7c9', endColorstr='#e61034', GradientType=0 );
+
+border-radius: 113px 113px 113px 113px;
+-moz-border-radius: 113px 113px 113px 113px;
+-webkit-border-radius: 113px 113px 113px 113px;
+border: 20px solid #dae4fa;
+}
+
+.modal-footer{
+  margin-bottom: 5%;
+  font-size: 17px;
+  font-family: "Trebuchet MS";
+}
+
+.img-circle{
+  margin-top: 15%;
+  margin-bottom: 15%;
+
+  border-radius: 50%;
+  width: 200px;
+  height: auto;
+  border: solid;
+}
+
+.media-heading{
+  padding-top: 5%;
+  font-size: 40px;
+}
+
+.profileInfo{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.media-mini-heading{
+  font-size: 20px;
+  font-family: "Trebuchet MS";
+}
